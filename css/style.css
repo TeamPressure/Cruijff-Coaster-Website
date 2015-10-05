@@ -1,0 +1,70 @@
+#home,#about,#contact,#product {
+	min-height: 1000px;
+	height: 1000px;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1920px;
+	position: relative;
+}
+
+#home article {
+	height: 458px;
+	position:absolute;
+	text-indent:800px;
+	top:291px;
+	width:100%;
+}	
+
+h1 {
+    color: white!important;
+}
+#about h1 {
+	color: #000!important;
+}
+
+#about p,#product p {
+    width: 43%;
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+    text-indent: 0px;
+}
+
+#product p {
+    color: #fff!important;
+}
+
+hr {
+    width: 700px;
+}
+
+#home {
+        background: url("../images/beach2.jpg") 50% 0 repeat fixed;
+}
+#about {
+	 background-color: #fff;
+}
+
+#contact {
+    background: url("../images/city.jpg") 50% 0 repeat fixed;
+}
+
+#product {
+	background-color: #2f4154;
+}
+
+
+h1 {
+	
+}
+
+
+#about article, #contact article,#product article{
+    height: 458px;
+    position: absolute;
+    text-indent: 800px;
+    top: 291px;
+    width: 100%;
+}
+	
