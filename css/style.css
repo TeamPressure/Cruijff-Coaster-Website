@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: Josefin;
     src: url(../fonts/JosefinSlab-Regular.ttf);
@@ -38,7 +39,7 @@ div.row {
 	height: 980px;
 	margin: 0 auto;
 	width: 100%;
-	max-width: 1920px;
+	max-width: 100%;
 	position: relative;
 }
 
@@ -59,7 +60,7 @@ div.row {
 	margin-right: auto;
 	letter-spacing: -8px;
 	font-weight: normal;
-	width: 800px;
+	width: auto;
     text-align: center;
 }
 
@@ -71,7 +72,7 @@ div.row {
 	letter-spacing: -8px;
 	font-weight: normal;
 	border: 2px solid white;
-	width: 300px;
+	width: 16%;
     text-align: center;
     padding: 20px;
 }
@@ -81,7 +82,7 @@ div.row {
 	margin-left: auto;
 	margin-right: auto;
 	font-family: Notera;
-	margin-left: 400px;
+
 	font-size: 90pt;
 	width: 1000px;
     text-align: center;
@@ -102,18 +103,22 @@ h1 {
 #product {
 	 background: url("../images/concrete.png") repeat;
 	 border-bottom: 12px solid #006c41;
-	 min-height: 600px;
+
 	height: 650px;
 	margin: 0 auto;
 	width: 100%;
-	max-width: 1920px;
+	max-width: 100%;
 	position: relative;
+
+
+
 }
 
 #product article {
-    height: 400px;
+    height: auto;
     position: absolute;
     width: 100%;
+
 }
 
 #product p {
@@ -175,19 +180,20 @@ hr {
 	height: 1000px;
 	margin: 0 auto;
 	width: 100%;
-	max-width: 1920px;
+	max-width: 100%;
 	position: relative;
 	background: url("../images/bg1.png") 50% 0 fixed;
 }
 
 /* About Us */
 
+
 #aboutus {
 	min-height: 550px;
-	height: 550px;
+	height: auto;
 	margin: 0 auto;
 	width: 100%;
-	max-width: 1920px;
+	max-width: 100%
 	position: relative;
 	background-color: #191919;
 }
@@ -211,5 +217,36 @@ hr {
 	border-bottom: 1px solid #075636;
 	max-height: 250px;
 }
+
+	@media (max-width:960px) {
+
+		#aboutus {
+			min-height: 2000px;
+			height: auto;
+			margin: 0 auto;
+			width: 100%;
+			max-width: 100%
+			position: relative;
+			background-color: #191919;
+		}
+
+		#product {
+			background: url("../images/concrete.png") repeat;
+			border-bottom: 12px solid #006c41;
+			height: 1250px;
+
+			margin: 0 auto;
+			width: 100%;
+			max-width: 100%;
+			position: relative;
+
+
+
+		}
+
+
+
+	}
+
 
 	
