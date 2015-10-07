@@ -1,6 +1,41 @@
-#home,#about,#contact,#product {
-	min-height: 1000px;
-	height: 1000px;
+@font-face {
+    font-family: Josefin;
+    src: url(../fonts/JosefinSlab-Regular.ttf);
+}
+
+@font-face {
+    font-family: OswaldL;
+    src: url(../fonts/Oswald-Light.ttf);
+}
+
+@font-face {
+    font-family: OswaldR;
+    src: url(../fonts/Oswald-Regular.ttf);
+}
+
+@font-face {
+	font-family: LetterGothic;
+	src: url(../fonts/LetterGothicStd.otf)
+}
+
+@font-face {
+	font-family: Notera;
+	src: url(../fonts/Notera_PersonalUseOnly_0.ttf)
+}
+
+.col-md-3 {
+	padding: 0;
+	
+}
+
+div.row {
+	margin: 0;
+}
+
+/* Home */
+
+#home {
+	height: 980px;
 	margin: 0 auto;
 	width: 100%;
 	max-width: 1920px;
@@ -10,29 +45,113 @@
 #home article {
 	height: 458px;
 	position:absolute;
-	text-indent:800px;
-	top:291px;
-	width:100%;
 }	
+
+.decal {
+	margin-top: 20px;
+	max-width: 100%;
+}
+
+.home-title {
+	font-family: LetterGothic;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	letter-spacing: -8px;
+	font-weight: normal;
+	width: 800px;
+    text-align: center;
+}
+
+.buy-button {
+	font-family: LetterGothic;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 180px;
+	letter-spacing: -8px;
+	font-weight: normal;
+	border: 2px solid white;
+	width: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+.home-coaster {
+	margin-top: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Notera;
+	margin-left: 400px;
+	font-size: 90pt;
+	width: 1000px;
+    text-align: center;
+}
+
+.decalbot{
+	margin-top: 100px;
+	max-width: 100%;
+	margin-bottom: 20px;
+}
 
 h1 {
     color: white!important;
 }
-#about h1 {
-	color: #000!important;
+
+/* Product */
+
+#product {
+	 background: url("../images/concrete.png") repeat;
+	 border-bottom: 12px solid #006c41;
+	 min-height: 600px;
+	height: 650px;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1920px;
+	position: relative;
 }
 
-#about p,#product p {
-    width: 43%;
-    margin: 0 auto;
-    text-align: center;
-    color: black;
-    font-family: sans-serif;
-    text-indent: 0px;
+#product article {
+    height: 400px;
+    position: absolute;
+    width: 100%;
 }
 
 #product p {
-    color: #fff!important;
+    color: #191919;
+}
+
+.product-title {
+	color: #191919!important;
+	font-family: OswaldR;
+	letter-spacing: -3px;
+	margin-bottom: 100px;
+	margin-top: 5%;
+	text-align: center;
+}
+
+.icon {
+	height: 150px;
+}
+
+/* Photos */
+
+.carousel {	
+	
+}
+
+.carousel img {
+	text-align: center;
+	margin: 9% auto 10% auto;
+}
+
+#photos p,#product p {
+    width: 43%;
+	margin-top: 30px;
+    text-align: center;
+    color: black;
+    font-family: Josefin, sans-serif;
+	font-size: 22px;
+    text-indent: 0px;
 }
 
 hr {
@@ -40,31 +159,57 @@ hr {
 }
 
 #home {
-        background: url("../images/beach2.jpg") 50% 0 repeat fixed;
-}
-#about {
-	 background-color: #fff;
-}
-
-#contact {
-    background: url("../images/city.jpg") 50% 0 repeat fixed;
+    background: url("../images/bg1.png") 50% 0 fixed;
+	border-top: 12px solid #006c41;
+	border-bottom: 12px solid #006c41;
 }
 
-#product {
-	background-color: #2f4154;
-}
-
-
-h1 {
-	
-}
-
-
-#about article, #contact article,#product article{
+#photos article,#aboutus article{
     height: 458px;
     position: absolute;
-    text-indent: 800px;
-    top: 291px;
     width: 100%;
 }
+
+#photos {
+	min-height: 1000px;
+	height: 1000px;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1920px;
+	position: relative;
+	background: url("../images/bg1.png") 50% 0 fixed;
+}
+
+/* About Us */
+
+#aboutus {
+	min-height: 550px;
+	height: 550px;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1920px;
+	position: relative;
+	background-color: #191919;
+}
+
+#aboutus p {
+	font-family: Josefin, sans-serif;
+	color: white;
+	margin-top: 30px;
+}
+
+#aboutus .row {
+	margin-top: 5%;
+}
+
+.aboutus {
+	margin-top: 3%;
+}
+
+.ppic {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #075636;
+	max-height: 250px;
+}
+
 	
